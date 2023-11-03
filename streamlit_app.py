@@ -6,7 +6,7 @@ from llama_index import SimpleDirectoryReader
 
 openai.api_key = st.secrets.openai_key
 
-st.set_page_config(page_title="ErAnimal - AIVet", layout="centered", initial_sidebar_state="auto", menu_items=None, page_icon = img)
+st.set_page_config(page_title="ErAnimal - AIVet", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("Tu servicio veterinario asistido por IA")
 st.info("Este es el agente experto de IA sin coste que atiende consultas veterinarias")
 
